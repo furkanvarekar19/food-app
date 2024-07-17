@@ -12,9 +12,9 @@ function Delivery() {
         />
 
         <div className='flex flex-col justify-center' >
-            <p className='font-bold text-[green] text-[20px]'>Get the App</p>
-            <h2 className='text-5xl py-2 font-bold'>The Fastest Food Delivery In India</h2>
-            <button className='bg-black w-[200px] text-white rounded-md my-6 py-[15px] text-[20px] hover:text-[#fbc531] font-semibold'>
+            <p className='font-bold text-[green] text-[20px] md:text-[30px]'>Get the App</p>
+            <h2 className='  sm:text-2xl md:text-3xl lg:text-5xl py-2 font-bold'>The Fastest Food Delivery In India</h2>
+            <button className='bg-black sm:w-[100px] md:w-[150px] text-white rounded-md my-6 py-[15px] sm:text-[10px] md:text-[20px] hover:text-[#fbc531] font-semibold'>
             Get Started</button>
         </div>
        </div>

@@ -10,10 +10,10 @@ function Hero() {
             url:'https://w0.peakpx.com/wallpaper/101/95/HD-wallpaper-burgers-fast-food-delicious-food-sandwiches-harmful-food.jpg'
         },
         {
-            url: 'https://img.freepik.com/free-photo/fresh-pasta-with-hearty-bolognese-parmesan-cheese-generated-by-ai_188544-9469.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1720915200&semt=ais_user'
+            url: 'https://img.freepik.com/premium-photo/shawarma-sandwich-pita-with-beef-meat-vegetables-cheese_124507-28603.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1720828800&semt=ais_user'
         },
         {
-            url:'https://images7.alphacoders.com/368/368875.jpg'
+            url:'https://c4.wallpaperflare.com/wallpaper/946/274/339/food-burgers-fast-food-fries-wallpaper-preview.jpg'
         },
     ]
 

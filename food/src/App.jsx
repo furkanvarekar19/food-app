@@ -4,6 +4,8 @@ import Header from './componets/Header'
 import Hero from './componets/Hero'
 import Footer from './componets/Footer'
 import Delivery from './componets/Delivery'
+import FoodsLider from './componets/FoodsLider'
+import OurFood from './componets/OurFood'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
         <Header/>
         <Hero/>
         <Delivery/>
+        <FoodsLider/>
+        <OurFood/>
         <Footer/>
 
      </div>
