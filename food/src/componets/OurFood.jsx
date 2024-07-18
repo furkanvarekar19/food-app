@@ -4,7 +4,7 @@ import {mealData} from '../Data/data'
 function OurFood() {
   return (
     <>
-    <div className='w-[90%] mx-auto'>
+    <div className='w-[90%] mx-auto mt-[100px]'>
         <div>
             <h2 className='text-center text-[#fbc531] text-3xl font-bold'>Our Food</h2>
         </div>

@@ -36,8 +36,8 @@ function Hero() {
 
 
   return (
-    <div>
-    <div className='w-[90%] mx-auto h-[80vh] my-5 relative'>
+    <div className='mt-[100px]'>
+    <div className='w-[80%] mx-auto h-[80vh] my-5 relative '>
         {
             imgData.map((item , index)=>(
                 <div key={index} className={`${slider===index?"block":"hidden"}`}>
@@ -47,7 +47,7 @@ function Hero() {
         }
     </div>
     {/* <div className='w-full mx-auto h-[80vh]  bg-black opacity-50 absolute top-0 left-0 rounded-2xl'></div> */}
-    <div className='flex justify-between w-full px-5 absolute top-[50%] text-orange-600'>
+    <div className='flex justify-between w-full px-10 absolute top-[50%] text-orange-600'>
     <FaChevronLeft size={35}  className='cursor-pointer' onClick={handleMinus}/>
     <FaChevronRight size={35} className='cursor-pointer' onClick={handlePlus} />
     </div>

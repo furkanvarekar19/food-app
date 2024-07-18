@@ -1,24 +1,29 @@
 
 import './App.css'
 import Header from './componets/Header'
-import Hero from './componets/Hero'
 import Footer from './componets/Footer'
-import Delivery from './componets/Delivery'
-import FoodsLider from './componets/FoodsLider'
+import AboutUs from './componets/AboutUs'
 import OurFood from './componets/OurFood'
+import Home from './componets/Home'
+import Signin from './componets/Signin'
+import { BrowserRouter, Routes,Route } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
      <div>
+      <BrowserRouter>
         <Header/>
-        <Hero/>
-        <Delivery/>
-        <FoodsLider/>
-        <OurFood/>
-        <Footer/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/aboutUs' element={<AboutUs/>}/>
+        <Route path='/ourfood' element={<OurFood/>}/>
+        <Route path='/signin' element={<Signin/>}/>
 
+        </Routes>
+        <Footer/>
+        </BrowserRouter>
      </div>
     </>
   )
