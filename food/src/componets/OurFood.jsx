@@ -1,7 +1,7 @@
 import React from 'react'
 import {mealData} from '../Data/data'
 
-function OurFood() {
+function OurFood({handleAdd}) {
   return (
     <>
     <div className='w-[90%] mx-auto mt-[100px]'>
@@ -19,7 +19,8 @@ function OurFood() {
                       <p className='text-xl font-semibold uppercase'> {meal.name} </p>
                        <p className='text-xl font-bold'>{meal.category} </p>
                        <p className='text-xl font-bold'>₹{meal.price} </p>
-                       <button className='bg-black w-[100px] text-white rounded-md my-6 py-[10px] text-[15px] hover:text-[#fbc531] font-semibold'>
+                       <button className='bg-black w-[100px] text-white rounded-md my-6 py-[10px] text-[15px] hover:text-[#fbc531] font-semibold'
+                       onClick={handleAdd}>
                        Add to cart</button>
                       </div>
 

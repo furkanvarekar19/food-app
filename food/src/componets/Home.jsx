@@ -4,12 +4,12 @@ import Delivery from './Delivery'
 import FoodsLider from './FoodsLider'
 
 
-function Home() {
+function Home({handleAdd}) {
   return (
     <div>
           <Hero/>
         <Delivery/>
-        <FoodsLider/>
+        <FoodsLider handleAdd={handleAdd}/>
         {/* <OurFood/> */}
     </div>
   )

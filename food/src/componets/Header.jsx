@@ -4,9 +4,9 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Header({count}) {
    const [sideNav ,setSideNav] = useState(false);
-   console.log(sideNav);
+//    console.log(sideNav);
 
  
 
@@ -66,7 +66,10 @@ function Header() {
 
         <div className='flex gap-5'>
       <p><GiHamburgerMenu size={30} className=' cursor-pointer block sm:hidden' onClick={()=> setSideNav(!sideNav)} /></p>
-     <p><FaCartShopping size={30} /></p>
+     <p>
+       {count}
+        <FaCartShopping size={30} />
+        </p>
         </div>
 
     </div>
